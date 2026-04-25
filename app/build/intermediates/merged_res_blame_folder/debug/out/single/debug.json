@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.kkomi.assistant.app-merged_res-33:/layout_activity_settings.xml.flat",
+        "source": "com.kkomi.assistant.app-main-35:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.kkomi.assistant.app-merged_res-33:/xml_backup_rules.xml.flat",
+        "source": "com.kkomi.assistant.app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.kkomi.assistant.app-merged_res-33:/drawable_et_background.xml.flat",
+        "source": "com.kkomi.assistant.app-main-35:/drawable/et_background.xml"
+    },
+    {
+        "merged": "com.kkomi.assistant.app-merged_res-33:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.kkomi.assistant.app-main-35:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.kkomi.assistant.app-merged_res-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.kkomi.assistant.app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.kkomi.assistant.app-merged_res-33:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.kkomi.assistant.app-main-35:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.kkomi.assistant.app-merged_res-33:/drawable_btn_microphone_bg.xml.flat",
+        "source": "com.kkomi.assistant.app-main-35:/drawable/btn_microphone_bg.xml"
+    },
+    {
+        "merged": "com.kkomi.assistant.app-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "com.kkomi.assistant.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.kkomi.assistant.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.kkomi.assistant.app-main-35:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.kkomi.assistant.app-merged_res-33:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.kkomi.assistant.app-main-35:/mipmap-xhdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">꼬미 AI 비서</string>
+    <string name="hello_kkomi">안녕하세요! 저는 꼬미입니다.</string>
+    <string name="how_can_i_help">무엇을 도와드릴까요?</string>
+    <string name="listening">듣고 있어요...</string>
+    <string name="processing">생각 중이에요...</string>
+    <string name="executing">실행 중이에요...</string>
+    <string name="confirm_call">%s한테 전화하시겠어요?</string>
+    <string name="confirm_sms">%s한테 \'%s\'라고 보내시겠어요?</string>
+    <string name="yes">네</string>
+    <string name="no">아니오</string>
+    <string name="settings">설정</string>
+    <string name="history">기록</string>
+    <string name="battery_saver">배터리 절약 모드</string>
+    <string name="wifi_only_search">Wi-Fi 전용 검색</string>
+    <string name="about">정보</string>
+    <string name="version">버전</string>
+</resources>

@@ -1,0 +1,9 @@
+/home/ubuntu/kkomi_app/app/src/main/java/com/kkomi/assistant/KkomiAnimationManager.kt
+/home/ubuntu/kkomi_app/app/src/main/java/com/kkomi/assistant/MainActivity.kt
+/home/ubuntu/kkomi_app/app/src/main/java/com/kkomi/assistant/SafetyManager.kt
+/home/ubuntu/kkomi_app/app/src/main/java/com/kkomi/assistant/DeviceControlManager.kt
+/home/ubuntu/kkomi_app/app/src/main/java/com/kkomi/assistant/KkomiDatabase.kt
+/home/ubuntu/kkomi_app/app/src/main/java/com/kkomi/assistant/SettingsActivity.kt
+/home/ubuntu/kkomi_app/app/src/main/java/com/kkomi/assistant/TensorFlowLiteManager.kt
+/home/ubuntu/kkomi_app/app/src/main/java/com/kkomi/assistant/PerplexitySearchManager.kt
+/home/ubuntu/kkomi_app/app/src/main/java/com/kkomi/assistant/VoiceProfileManager.kt

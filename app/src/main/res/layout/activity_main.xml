@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/kkomi_background"
+    tools:context=".MainActivity">
+
+    <!-- 헤더 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/kkomi_primary" />
+
+        <ImageButton
+            android:id="@+id/btn_settings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/settings"
+            android:scaleType="centerInside" />
+
+    </LinearLayout>
+
+    <!-- 메인 콘텐츠 -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- 인사말 -->
+            <TextView
+                android:id="@+id/tv_greeting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hello_kkomi"
+                android:textSize="18sp"
+                android:textColor="@color/dark_gray"
+                android:gravity="center"
+                android:layout_marginBottom="24dp" />
+
+            <!-- 최근 작업 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="최근 작업"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp" />
+
+            <LinearLayout
+                android:id="@+id/ll_recent_tasks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white"
+                android:padding="12dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- 꼬미 캐릭터 및 음성 입력 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- 꼬미 캐릭터 -->
+        <ImageView
+            android:id="@+id/iv_kkomi"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:contentDescription="Kkomi Character"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 음성 입력 상태 -->
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/how_can_i_help"
+            android:textSize="14sp"
+            android:textColor="@color/dark_gray"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 마이크 버튼 -->
+        <Button
+            android:id="@+id/btn_microphone"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_microphone_bg"
+            android:contentDescription="Microphone"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 입력 텍스트 -->
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="입력하거나 말씀해주세요..."
+            android:padding="12dp"
+            android:background="@drawable/et_background"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
